@@ -315,3 +315,108 @@ ul a {
   align-items: center;
   justify-content: center;
 }
+
+/* ============ RESPONSIVE DESIGN (455px) ============ */
+
+@media (max-width: 455px) {
+  .navbar {
+    height: 60px;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-address {
+    display: none;
+  }
+
+  .nav-search {
+    width: 85%;
+    margin: 0;
+  }
+
+  .nav-language,
+  .nav-signin,
+  .nav-return {
+    display: none;
+  }
+
+  .nav-cart {
+    display: none;
+  }
+
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .panel-ops {
+    width: 100%;
+    display: none;
+  }
+
+  .panel-all {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .panel-deals {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .hero-section {
+    height: 200px;
+  }
+
+  .hero-msg {
+    width: 90%;
+    font-size: 0.75rem;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .box-image {
+    height: 200px;
+  }
+
+  .foot-panel2 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul a {
+    margin-top: 5px;
+  }
+
+  .foot-panel4 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .foot-panel4 a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.75rem;
+  }
+}
